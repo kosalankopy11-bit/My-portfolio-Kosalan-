@@ -1,0 +1,37 @@
+/* முழு பக்கத்திற்கும் பொதுவான ஸ்டைல் */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* லேசான சாம்பல் நிறம் */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* தலைப்பு (Heading) ஸ்டைல் */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+/* ஒவ்வொரு பகுதிக்கும் (Sections) ஸ்டைல் */
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+
+/* பட்டியல்கள் (Lists) சீராக இருக்க */
+ul {
+    list-style-type: none; /* புள்ளிகளை நீக்க */
+    padding: 200px; /* பட்டியலுக்கு இடம் கொடுக்க */
+}
+
+li {
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
