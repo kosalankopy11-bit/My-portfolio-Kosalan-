@@ -1,14 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="cv.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Kosalan Portfolio</title>
+
+  <link rel="stylesheet" href="cv.css"/>
+
+  
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>I am Kosalan</h1>
-    <p>Welcome to my portfolio website. Here you can find information about my skills, experience, and projects.</p>
-    <script src="cv.js"></script>
+
+
+
+
+  <header>
+
+    <div class="logo">~/Kosalan</div>
+
+    <nav>
+
+      <a href="#about">About</a>
+
+      <a href="#experience">Experience</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+       <a href="Koneswaran_Kosalan_CV.pdf" download="Kosalan_CV.pdf" class="cv-download-btn">
+    CV <i class="fa-solid fa-download"></i>
+  
+
+
+      </nav>
+      <nav class="navbar">
+    <div class="nav-left">
+      <h2>Portfolio</h2>
+    </div>
+  </a>
+ 
+    
+    <button id="theme-toggle" class="mode-btn">
+      <div class="icon-container">
+      
+        <svg class="sun-icon icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+
+        <svg class="moon-icon icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</nav>
+
+
+
+  </header>
+
+
+  
+
+  <section class="hero">
+
+    <div class="left">
+        <h3>Hello 👋 I'm</h3>
+        <h1>Koneswaran Kosalan</h1>
+        
+        
+        <h2 class="typing-container">
+            <span id="hero-typing"></span><span class="cursor">|</span>
+        </h2>
+
+        
+        <p class="smart-line">
+            Turning complex problems into elegant, user-centric digital solutions.
+        </p>
+
+        <div class="buttons">
+            <a href="#" class="btn primary">Get Resume</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        
+    
+
+
+
+      <div class="socials">
+
+        <a href="https://github.com/kosalankopy11-bit" target="_blank">
+          <i class="fa-brands fa-github"></i>
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/kosalan-koneswaran-68b3673ba/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/kosalan2004?igsh=MWc3dmo4d2IyY3Mxcw==/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="right">
+
+      <img src="FB_IMG_1753024042031.jpg" alt="">
+
+    </div>
+
+  </section>
+
+
+
+  
+  <section class="section" id="about">
+
+    <h2 class="title">About Me</h2>
+
+    <p class="about-text">
+
+      Passionate frontend developer from Sri Lanka.
+      I love creating clean modern UI designs and
+      responsive animated websites.
+
+    </p>
+
+  </section>
+
+
+
+  
+
+  <section class="section" id="experience">
+
+    <h2 class="title">Experience</h2>
+
+    <div class="card">
+
+      <h3>Frontend Developer</h3>
+
+      <span>2026 - Present</span>
+
+      <p>
+
+        Building responsive websites using
+        HTML, CSS, JavaScript and React.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  
+
+  <section class="section" id="projects">
+
+    <h2 class="title">Projects</h2>
+
+
+    <div class="project-grid">
+
+
+      <div class="project-card">
+
+        <img src="https://picsum.photos/500/300?1">
+
+        <div class="content">
+
+          <h3>Portfolio Website</h3>
+
+          <p>
+
+            Modern responsive developer portfolio.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <img src="https://picsum.photos/500/300?2">
+
+        <div class="content">
+
+          <h3>Dashboard UI</h3>
+
+          <p>
+
+            Admin dashboard with modern UI.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+ 
+    <section id="contact" class="section">
+    <h2 class="title">Contact Me</h2>
+    
+    
+      <form action="https://formspree.io/f/mbdwpnak" method="POST" class="contact-form">
+        <div class="input-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary send-btn">Send Message 🚀</button>
+      </form>
+
+     </section>
+
+
+
+    <div class="contact-grid">
+        <div class="contact-card">
+            <div class="icon-box">📧</div>
+            <p>Email</p>
+            <h3><a #href="mailto:kosalankopy11@gmail.com">kosalankopy11@gmail.com</a></h3>
+        </div>
+        <div class="contact-card">
+            <div class="icon-box">🔗</div>
+            <p>LinkedIn</p>
+            <h3><a href="https://www.linkedin.com/in/kosalan-koneswaran-68b3673ba/" target="_blank">Direct message</a></h3>
+        </div>
+        <div class="contact-card">
+            <div class="icon-box">📄</div>
+            <p>Resume</p>
+            <h3><a href="Koneswaran_Kosalan_CV.pdf" download>Download CV</a></h3>
+        </div>
+    </div>
+
+   
+
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+    </div>
+    <div class="terminal-body">
+      <span class="prompt">$</span> hire kosalan --role=developer --location=remote<br>
+      <span class="response">> Hired! Welcome to the team, Kosalan!</span>
+    </div>
+  </div>
+</body>
+
+   
+
+</section>
+
+
+
+
+ 
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+   
+    <div class="footer-box">
+
+      <h2>~/kosalan</h2>
+
+      <p>
+        Building modern responsive websites
+        with clean UI and smooth experiences.
+      </p>
+
+      <span class="location">
+        📍 Sri Lanka (GMT +5:30)
+      </span>
+
+      <a href="#">
+        Open to remote work
+      </a>
+
+    </div>
+
+
+   
+    <div class="footer-box">
+
+      <h3>NAVIGATION</h3>
+
+      <a href="#about">About</a>
+
+      <a href="#skills">Skills</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+    </div>
+
+
+
+    <div class="footer-box">
+
+      <h3>FIND ME</h3>
+
+      <a href="#">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+
+      <a href="#">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+      </a>
+
+      <a href="#">
+        <i class="fa-regular fa-envelope"></i>
+        Email
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    © 2026 Kosalan. All rights reserved.
+
+  </div>
+
+</footer>
+
+  </footer>
+  <script src="cv.js"></script>
 </body>
 </html>
